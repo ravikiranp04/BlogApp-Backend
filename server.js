@@ -6,9 +6,9 @@ const path=require('path') //core module
 require('dotenv').config()//process.env.PORT
 //---------------------------------------
 //Import the apis
-const userApp=require('../Backend/APIs/user-api')
-const authorApp=require('../Backend/APIs/author-api')
-const adminApp=require('../Backend/APIs/admin-api')
+const userApp=require('./APIs/user-api')
+const authorApp=require('./APIs/author-api')
+const adminApp=require('./APIs/admin-api')
 //--------------------------------------------------
 
 //handover req to specific route based on start of paths
